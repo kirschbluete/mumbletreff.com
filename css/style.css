@@ -1,0 +1,150 @@
+body { background:#000000; }
+.nav {	background:#111111; 
+		position: fixed;
+		top: 0;
+		left: 0;
+		width:100%;
+		height:100px;}
+.nav h1 { color:lightblue;
+		font-family:"Arial";
+		padding-left:1em;
+		padding-top:0.8em;}
+.eule { float:left;
+		width:100px;
+		height:100px;
+		background-image:url("../img/eule.png");
+		background-position:center; 
+		background-size: 80px;
+		background-repeat: no-repeat;}
+.logo { float:left; 
+		width: 50%;}
+.menu { float:right;
+		padding-top:2em;
+		padding-right:2em;
+		font-family:"Arial";
+		font-size:14pt; }
+.menu a { color:#ffffff;
+			text-decoration:none;}
+.menu a:hover { color:lightblue; 
+				text-decoration:none;}
+
+#start { 	position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height: 100%;}
+.startcontent	{	padding-top:15em;
+					padding-bottom:15em;
+					height:50%;
+					width:100%;
+					background:#222222;
+					background-image:url("../img/eule.png");
+					background-position:bottom right;
+					background-repeat:no-repeat;
+					background-size:60%;
+					}
+.startcontent h2, p { padding-left:5em;
+				color:lightblue;
+				font-family:"Arial";
+				text-align:left;}
+.startcontent p { padding-left:7.5em; }
+.startcontent img { padding-left:8em;
+					width:10%;}
+.startcontent .button { margin-top:1em;
+						margin-left:7.5em;
+						width:200px;
+						height:20px;
+						border-radius:0.5em;
+						border-color:lightblue;
+						border-style:solid;
+						text-align:center;
+						padding-top:1em;
+						padding-bottom:1em;
+						}
+
+.startcontent a { color:white;
+			text-decoration:none;
+			font-family:"Arial";
+			padding-top:5em;
+			text-align:center;}
+
+.startcontent a:hover { color:lightblue;
+				text-decoration:none;
+				font-family:"Arial";}
+#podcast { 	float:left;
+			margin-top:60%;
+			width:100%;
+			height:20%;
+			background-image:url("../img/undraw_connected_world_wuay.svg");
+			background-repeat:no-repeat;
+			background-position:bottom -120px left -200px;
+			background-size:50%;}
+#podcast h2 { color:lightblue;
+				font-family:"Arial";
+				text-align:center;
+				padding-bottom:3em;}
+#podcast article { 	display: block;
+  align-items: center;
+  justify-content: center;
+padding-bottom:3em;}
+#podcast article p { text-align:center;
+						padding-left:0em;}
+#info { 	float:left;
+			background:#222222;
+			width:100%;
+			height:20%;
+			background-image:url("../img/undraw_hang_out_h9ud.svg");
+			background-position:right top;
+			background-size:30%;
+			background-repeat:no-repeat;}
+#info h2 {color:lightblue;
+	font-family:"Arial";
+	text-align:center;}
+#info p { margin-right:7.5em;}
+
+ul li { font-family:"Arial"; 
+color:#F3E2A9;
+margin-left:7.5em;
+padding-bottom:0.5em;}
+
+ol li { font-family:"Arial"; 
+color:#F3E2A9;
+margin-left:7.5em;
+padding-bottom:0.5em;}
+
+footer {	float:left;
+			background:lightblue;
+			width:100%;
+			height:350px;
+			color:#111111;
+			font-family:"Arial";
+			background-image:url("../img/undraw_Social_media_re_w12q.svg");
+			background-repeat:no-repeat;
+			background-position:center bottom;
+			background-size:20%;
+			text-align:center;
+			padding-top:1em;}
+#info a { color:white;
+			text-decoration:none;}
+
+#info a:hover { color:#F3E2A9;
+				text-decoration:none;}
+footer a { color:white;
+			text-decoration:none;}
+
+footer a:hover { color:#111111;
+				text-decoration:none;}
+#impressum { 	color:#111111;
+			padding-top:150px;
+			left:0;
+			width:100%;
+			height:100%;
+			padding-bottom:100px;
+			background-image:url("../img/undraw_podcast_q6p7.svg");
+			background-position:right top 100px;
+			background-repeat:no-repeat;
+			background-size:30%;}
+#impressum h1 { padding-left:3.3em;
+				font-family:"Arial";
+	color:white; }
+#impressum p {padding-right:50em;;
